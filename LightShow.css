@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+}
+.light-show {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.light {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#light1 {
+    background-color: red;
+    top: 14%;
+    left: 50%;
+}
+
+#light2 {
+    background-color: green;
+    top: 14%;
+    left: 18%;
+}
+
+#light3 {
+    background-color: blue;
+    top: 14%;
+    left: 83%;
+}
+
+#light4 {
+    background-color: yellow;
+    top: 60%;
+    left: 18%;
+}
+
+#light5 {
+    background-color: purple;
+    top: 60%;
+    left: 50%;
+}
+
+#light6 {
+    background-color: white;
+    top: 60%;
+    left: 83%;
+}
