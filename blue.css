@@ -1,6 +1,6 @@
 body {
     background-color: blue;
-   animation: flashAnimation 3s infinite linear;
+   animation: flashAnimation 5s infinite linear;
 }
 
  @keyframes flashAnimation {
